@@ -118,7 +118,7 @@ async def cmd_start(message: Message, state: FSMContext, bot: Bot):
         
         await message.answer(
             f"🌸 Assalomu alaykum, <b>{first_name}</b>!\n\n"
-            f"Gul savdo botiga xush kelibsiz!\n\n"
+            f"Rebloom gul savdo botiga xush kelibsiz!\n\n"
             f"💰 Sizning balansingiz: {format_price(user.balance)} som\n\n"
             f"📌 Bu bot orqali gullaringizni sotishingiz yoki auksionga qoyishingiz mumkin.\n\n"
             f"💰 Narxlar:\n"
@@ -367,7 +367,7 @@ async def flower_media_invalid(message: Message):
 async def flower_name_received(message: Message, state: FSMContext):
     await state.update_data(name=message.text)
     await state.set_state(FlowerStates.waiting_description)
-    await message.answer("📝 Gul haqida qisqacha malumot yozing:", reply_markup=cancel_kb())
+    await message.answer("📝 Gul holati haqida qisqacha malumot yozing:", reply_markup=cancel_kb())
 
 
 @router.message(FlowerStates.waiting_description)
