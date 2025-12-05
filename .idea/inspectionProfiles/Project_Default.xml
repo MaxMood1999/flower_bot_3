@@ -1,0 +1,28 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="aiogram" />
+          <option value="sqlalchemy" />
+          <option value="aiosqlite" />
+          <option value="aiosmtplib" />
+          <option value="email-validator" />
+          <option value="openai" />
+          <option value="pandas" />
+          <option value="openpyxl" />
+          <option value="xlrd" />
+          <option value="python-dotenv" />
+          <option value="pydantic" />
+          <option value="pydantic-settings" />
+          <option value="httpx" />
+          <option value="aiohttp" />
+          <option value="cachetools" />
+          <option value="rapidfuzz" />
+          <option value="structlog" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
